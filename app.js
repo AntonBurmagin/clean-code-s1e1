@@ -39,6 +39,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.className = "push-button delete";
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButtonImg.className = "delete-img";
+    deleteButtonImg.alt = "Backspace image";
 
     label.innerText=taskString;
     label.className="normal-label task";
